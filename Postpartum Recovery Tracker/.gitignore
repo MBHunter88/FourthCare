@@ -1,0 +1,62 @@
+# Xcode
+.DS_Store
+*/build/
+build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+
+# Swift Package Manager
+.swiftpm/
+Packages/
+.package.resolved
+
+# CocoaPods
+Pods/
+*.podspec.json
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# Archives
+*.xcarchive
+
+# User-specific
+*.swp
+*.swo
+*.orig
+
+# Logs
+*.log
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Asset catalogs build artifacts
+*.car
+
+# Simulator
+Library/Developer/CoreSimulator/Devices/
+
+# SwiftLint cache
+.swiftlint.yml.cache
+
+# Xcode previews cache
+.previews/
+
+# SPM artifacts
+.build/
+
+# Misc
+*.tmp
+*.temp
+Thumbs.db
+ehthumbs.db
